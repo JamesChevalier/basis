@@ -17,5 +17,28 @@
 <body>
 
   <%= yield %>
+
+  <div id="myNoticeAlertModal" class="reveal-modal">
+    <% if notice %>
+      <div class="alert-box">
+        <p class="notice"><%= notice %></p>
+      </div>
+    <% end %>
+    <% if alert %>
+      <div class="alert-box alert">
+        <p class="alert"><%= alert %></p>
+      </div>
+    <% end %>
+    <a class="close-reveal-modal">&#215;</a>
+  </div>
+
+  <% unless notice.blank? && alert.blank? %>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $("#myNoticeAlertModal").reveal();
+      });
+    </script>
+  <% end %>
+
 </body>
 </html>
