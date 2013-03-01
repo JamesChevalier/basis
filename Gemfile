@@ -16,6 +16,7 @@ end
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller'
+  gem 'bundler-audit'
   gem 'capistrano'
   gem 'capistrano-ext'
   gem 'quiet_assets'
