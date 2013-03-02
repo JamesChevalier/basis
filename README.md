@@ -2,6 +2,7 @@
 
 Inspired by [suspenders](https://github.com/thoughtbot/suspenders), I decided to build out my own default Rails app.
 
+
 ### Files to edit
 
 Search the project for 'basis' and 'Basis', to make sure you find all instances of the app name.
@@ -23,9 +24,11 @@ Search the project for 'basis' and 'Basis', to make sure you find all instances 
 * config/mongoid.yml (if using Mongoid)
 * config/routes.rb
 
+
 ### Commands to run
 
 * `rake db:create:all`
+
 
 ### Testing
 
@@ -35,7 +38,8 @@ Search the project for 'basis' and 'Basis', to make sure you find all instances 
 * Run `guard` to monitor the project while you work (it will automatically run relevant tests whenever files are saved)
 * Optionally, install growlnotify from the Extras/growlnotify/growlnotify.pkg in Growl's disk image to get notifications from `guard`
 
-## Tracking
+
+### Tracking
 
 * Errors are logged to [Errbit](https://github.com/errbit/errbit)
 * Performance information is logged to [NewRelic](http://newrelic.com)
