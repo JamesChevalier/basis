@@ -43,3 +43,8 @@ Search the project for 'basis' and 'Basis', to make sure you find all instances 
 
 * Errors are logged to [Errbit](https://github.com/errbit/errbit)
 * Performance information is logged to [NewRelic](http://newrelic.com)
+
+
+### Other Info
+
+Check out the `doc/README_FOR_APP.md` file for more information.
