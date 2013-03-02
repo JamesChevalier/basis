@@ -42,8 +42,21 @@ group :test do
 end
 
 gem 'airbrake'
+# gem 'cancan'        # Authorization
+# gem 'devise'        # Authentication
+# gem 'friendly_id'   # Pretty URLs
+# gem 'gon'           # Send data to JavaScript
 gem 'jquery-rails'
+# gem 'mailchimp'     # MailChimp
+# gem 'markable'      # Marking system
+# gem 'money-rails'   # Money and currency conversion
 gem 'mysql2'
+# gem 'nested_form'   # Handle multiple models in a single form
+# gem 'paperclip'     # Upload management
+# gem 'phone'         # Phone number parsing, validation and formatting
 gem 'rails', '3.2.12'
+# gem 'ransack'       # Object-based searching
 gem 'rvm-capistrano'
+# gem 'sorted'        # Sort large data sets
 gem 'stamp'
+# gem 'will_paginate' # Pagination
