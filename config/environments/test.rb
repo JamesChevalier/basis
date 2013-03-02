@@ -35,4 +35,8 @@ Basis::Application.configure do
 
   # Print deprecation notices to the stderr
   config.active_support.deprecation = :stderr
+
+  # Path to ImageMagick for Paperclip
+  # Uncomment the following line if you're using Paperclip
+  # Paperclip.options[:command_path] = "/usr/local/bin/"
 end
