@@ -7,6 +7,7 @@ Inspired by [suspenders](https://github.com/thoughtbot/suspenders), I decided to
 
 Search the project for 'basis' and 'Basis', to make sure you find all instances of the app name.
 
+* .rvmrc
 * config.ru
 * Rakefile
 * app/views/layouts/application.html.erb, in title tag
