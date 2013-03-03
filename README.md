@@ -28,7 +28,7 @@ Search the project for 'basis' and 'Basis', to make sure you find all instances 
 
 ### Commands to run
 
-* `rake db:create:all`
+* `rake db:create`
 
 
 ### Testing
