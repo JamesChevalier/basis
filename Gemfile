@@ -60,4 +60,5 @@ gem 'rails', '3.2.12'
 gem 'rvm-capistrano'
 # gem 'sorted'        # Sort large data sets
 gem 'stamp'
+# gem 'whenever'      # Write and deploy cron jobs
 # gem 'will_paginate' # Pagination
