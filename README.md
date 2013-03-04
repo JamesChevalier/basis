@@ -28,6 +28,7 @@ Search the project for 'basis' and 'Basis', to make sure you find all instances 
 
 ### Commands to run
 
+* `bundle install`
 * `rake db:create`
 
 
