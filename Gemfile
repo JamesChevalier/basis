@@ -48,6 +48,7 @@ gem 'airbrake'
 # gem 'friendly_id'   # Pretty URLs
 # gem 'gon'           # Send data to JavaScript
 gem 'jquery-rails'
+# gem 'mail_form'     # Send e-mail straight from forms
 # gem 'mailchimp'     # MailChimp
 # gem 'markable'      # Marking system
 # gem 'money-rails'   # Money and currency conversion
