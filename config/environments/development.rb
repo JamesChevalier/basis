@@ -23,7 +23,7 @@ Basis::Application.configure do
   # config.action_mailer.smtp_settings = {
   #   :address              => "smtp.gmail.com",
   #   :port                 => 587,
-  #   :domain               => 'basis.com',
+  #   :domain               => 'basis.dev',
   #   :user_name            => "",
   #   :password             => "",
   #   :authentication       => 'plain',
@@ -48,4 +48,7 @@ Basis::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+
+  # Path to ImageMagick for Paperclip
+  # Paperclip.options[:command_path] = "/usr/local/bin/"
 end
