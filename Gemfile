@@ -51,6 +51,7 @@ gem 'jquery-rails'
 # gem 'mail_form'     # Send e-mail straight from forms
 # gem 'mailchimp'     # MailChimp
 # gem 'markable'      # Marking system
+# gem 'meta-tags'     # SEO
 # gem 'money-rails'   # Money and currency conversion
 gem 'mysql2'
 # gem 'nested_form'   # Handle multiple models in a single form
