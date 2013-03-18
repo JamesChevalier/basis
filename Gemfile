@@ -57,7 +57,7 @@ gem 'mysql2'
 # gem 'nested_form'   # Handle multiple models in a single form
 # gem 'paperclip'     # Upload management
 # gem 'phone'         # Phone number parsing, validation and formatting
-gem 'rails', '3.2.12'
+gem 'rails', '3.2.13'
 # gem 'ransack'       # Object-based searching
 gem 'rvm-capistrano'
 # gem 'sorted'        # Sort large data sets
