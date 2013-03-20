@@ -37,7 +37,7 @@ group :test do
   gem 'guard-rspec'
   gem 'guard-spork'
   gem 'launchy'
-  gem 'shoulda-matchers', '1.4.2' # Version 1.5.0 is incompatible with the minitest that's required for Ruby 2.0
+  gem 'shoulda-matchers'
   gem 'simplecov', require: false
   gem 'spork'
 end
