@@ -5,7 +5,7 @@ Inspired by [suspenders](https://github.com/thoughtbot/suspenders), I decided to
 
 ### Files to edit
 
-Search the project for 'basis' and 'Basis', to make sure you find all instances of the app name.
+Replace all the instances of 'basis' and 'Basis' with your app's name, using either all lowercase letters when replacing 'basis' and only the first letter uppercase when replacing 'Basis'. These are the files that should contain instances that need to be replaced (but you're better off doing a find/replace across all files in your text editor):
 
 * .rvmrc
 * config.ru
@@ -28,6 +28,8 @@ Search the project for 'basis' and 'Basis', to make sure you find all instances 
 
 ### Commands to run
 
+* `rake secret`
+    * Replace the secret_token in `config/initializers/secret_token.rb` with the result of this command
 * `bundle install`
 * `rake db:create`
 
