@@ -25,6 +25,7 @@ group :development do
   gem 'ruby_gntp' # also install growlnotify from the Extras/growlnotify/growlnotify.pkg in Growl disk image
   gem 'rails_best_practices'
   gem 'rails-erd'
+  gem 'rubocop'
 end
 
 group :production, :staging do

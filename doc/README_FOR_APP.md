@@ -53,6 +53,13 @@ To run it, run `rails_best_practices` in the Rails project directory.
 * View the file `doc/model.pdf`
 
 
+# rubocop
+
+[rubocop](https://github.com/bbatsov/rubocop) is a gem that checks your Rails app against the [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide).
+
+To run it, run `rubocop` in the Rails project directory.
+
+
 # simplecov
 
 [SimpleCov](https://github.com/colszowka/simplecov) is a code coverage analysis tool for Ruby.
