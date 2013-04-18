@@ -2,6 +2,6 @@ language: ruby
 bundler_args: --without development
 before_script:
   - mysql -e 'create database basis_test;'
-  - "bundle exec rake db:create db:schema:load"
+  - "bundle exec rake db:migrate"
 rvm:
   - "1.9.3"
