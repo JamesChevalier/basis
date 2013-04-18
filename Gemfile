@@ -26,6 +26,7 @@ group :development do
   gem 'rails_best_practices'
   gem 'rails-erd'
   gem 'rubocop'
+  gem 'travis-lint'
 end
 
 group :production, :staging do
