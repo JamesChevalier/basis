@@ -1,6 +1,6 @@
 ## basis
 
-[![Code Climate](https://codeclimate.com/github/JamesChevalier/basis.png)](https://codeclimate.com/github/JamesChevalier/basis)
+[![Code Climate](https://codeclimate.com/github/JamesChevalier/basis.png)](https://codeclimate.com/github/JamesChevalier/basis) [![Build Status](https://travis-ci.org/JamesChevalier/basis.png?branch=master)](https://travis-ci.org/JamesChevalier/basis)
 
 Inspired by [suspenders](https://github.com/thoughtbot/suspenders), I decided to build out my own default Rails app.
 
