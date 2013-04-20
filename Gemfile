@@ -62,6 +62,7 @@ gem 'mysql2'
 gem 'rails', '3.2.13'
 # gem 'ransack'       # Object-based searching
 gem 'rvm-capistrano'
+gem 'simple_form'
 # gem 'sorted'        # Sort large data sets
 gem 'stamp'
 # gem 'whenever'      # Write and deploy cron jobs
