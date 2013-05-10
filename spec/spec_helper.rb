@@ -56,8 +56,10 @@ Spork.prefork do
     config.include Capybara::DSL, :type => :request
     config.include FactoryGirl::Syntax::Methods
 
-    # Uncomment the following two lines if you're using Devise or Paperclip
-    # config.include Devise::TestHelpers, :type => :controller
+    # Uncomment the following line if you're using Devise
+    config.include Devise::TestHelpers, :type => :controller
+
+    # Uncomment the following line if you're using Paperclip
     # config.include Paperclip::Shoulda::Matchers
 
     # https://ariejan.net/2011/09/24/rspec-speed-up-by-tweaking-ruby-garbage-collection
