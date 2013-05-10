@@ -40,6 +40,7 @@ Remove `Gemfile.lock` from the `.gitignore` file.
 
 ### Testing
 
+* Run `rake db:migrate` to create the initial, blank, schema.rb file
 * Run `rake db:test:load` to set up the testing database
 * You will need to run `rake db:test:prepare` after every migration (do yourself a favor and add `alias migrate="rake db:migrate && rake db:rollback && rake db:migrate && rake db:test:prepare"` to your `.bash_profile` file)
 * Run `rspec` to run all the tests once (and to generate a coverage file in `coverage/index.html`)
