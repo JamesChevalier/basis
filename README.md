@@ -27,6 +27,8 @@ Replace all the instances of 'basis' and 'Basis' with your app's name, using eit
 * config/mongoid.yml (if using Mongoid)
 * config/routes.rb
 
+Remove `Gemfile.lock` from the `.gitignore` file.
+
 
 ### Commands to run
 
