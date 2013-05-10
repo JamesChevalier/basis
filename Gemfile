@@ -45,8 +45,8 @@ group :test do
 end
 
 gem 'airbrake'        # Error handling
-# gem 'cancan'        # Authorization
-# gem 'devise'        # Authentication
+gem 'cancan'          # Authorization
+gem 'devise'          # Authentication
 # gem 'friendly_id'   # Pretty URLs
 # gem 'gon'           # Send data to JavaScript
 gem 'jquery-rails'
