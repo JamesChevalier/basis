@@ -21,3 +21,4 @@ pickle-email-*.html
 .powrc
 *.orig
 /coverage/*
+Gemfile.lock
