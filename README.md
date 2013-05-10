@@ -36,6 +36,8 @@ Remove `Gemfile.lock` from the `.gitignore` file.
 * `rake secret`
     * Replace the secret_token in `config/initializers/secret_token.rb` with the result of this command
 * `rake db:create`
+* `rails g foundation:install`
+    * This will ask to replace some files - use `d` to compare the differences & make your own intelligent decisions
 
 
 ### Testing
