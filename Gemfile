@@ -44,7 +44,7 @@ group :test do
   gem 'spork'
 end
 
-gem 'airbrake'
+gem 'airbrake'        # Error handling
 # gem 'cancan'        # Authorization
 # gem 'devise'        # Authentication
 # gem 'friendly_id'   # Pretty URLs
@@ -62,8 +62,8 @@ gem 'mysql2'
 gem 'rails', '3.2.13'
 # gem 'ransack'       # Object-based searching
 gem 'rvm-capistrano'
-gem 'simple_form'
+gem 'simple_form'     # Forms made easy
 # gem 'sorted'        # Sort large data sets
-gem 'stamp'
+gem 'stamp'           # Format dates and times based on human-friendly examples
 # gem 'whenever'      # Write and deploy cron jobs
 # gem 'will_paginate' # Pagination
