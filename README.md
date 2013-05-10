@@ -32,9 +32,9 @@ Remove `Gemfile.lock` from the `.gitignore` file.
 
 ### Commands to run
 
+* `bundle install`
 * `rake secret`
     * Replace the secret_token in `config/initializers/secret_token.rb` with the result of this command
-* `bundle install`
 * `rake db:create`
 
 
