@@ -15,7 +15,7 @@ set :user, "basis"
 set :use_sudo, false
 default_run_options[:pty] = true
 
-set :rvm_ruby_string, 'ruby-2.0.0-p0@basis' # Replace with ENV['GEM_HOME'].gsub(/.*\//,"") to read from local system
+set :rvm_ruby_string, 'ruby-1.9.3-p429@basis' # Replace with ENV['GEM_HOME'].gsub(/.*\//,"") to read from local system
 set :bundle_without,  [:development, :test]
 
 role :web, "basis.com"
