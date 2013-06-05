@@ -44,26 +44,27 @@ group :test do
   gem 'spork'
 end
 
-gem 'airbrake'        # Error handling
-gem 'cancan'          # Authorization
-gem 'devise'          # Authentication
-# gem 'friendly_id'   # Pretty URLs
-# gem 'gon'           # Send data to JavaScript
+gem 'airbrake'                  # Error handling
+gem 'cancan'                    # Authorization
+gem 'coveralls', require: false # Automated test coverage statistics
+gem 'devise'                    # Authentication
+# gem 'friendly_id'             # Pretty URLs
+# gem 'gon'                     # Send data to JavaScript
 gem 'jquery-rails'
-# gem 'mail_form'     # Send e-mail straight from forms
-# gem 'mailchimp'     # MailChimp
-# gem 'markable'      # Marking system
-# gem 'meta-tags'     # SEO
-# gem 'money-rails'   # Money and currency conversion
+# gem 'mail_form'               # Send e-mail straight from forms
+# gem 'mailchimp'               # MailChimp
+# gem 'markable'                # Marking system
+# gem 'meta-tags'               # SEO
+# gem 'money-rails'             # Money and currency conversion
 gem 'mysql2'
-# gem 'nested_form'   # Handle multiple models in a single form
-# gem 'paperclip'     # Upload management
-# gem 'phone'         # Phone number parsing, validation and formatting
+# gem 'nested_form'             # Handle multiple models in a single form
+# gem 'paperclip'               # Upload management
+# gem 'phone'                   # Phone number parsing, validation and formatting
 gem 'rails', '3.2.13'
-# gem 'ransack'       # Object-based searching
+# gem 'ransack'                 # Object-based searching
 gem 'rvm-capistrano'
-gem 'simple_form'     # Forms made easy
-# gem 'sorted'        # Sort large data sets
-gem 'stamp'           # Format dates and times based on human-friendly examples
-# gem 'whenever'      # Write and deploy cron jobs
-# gem 'will_paginate' # Pagination
+gem 'simple_form'               # Forms made easy
+# gem 'sorted'                  # Sort large data sets
+gem 'stamp'                     # Format dates and times based on human-friendly examples
+# gem 'whenever'                # Write and deploy cron jobs
+# gem 'will_paginate'           # Pagination
