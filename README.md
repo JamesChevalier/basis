@@ -9,33 +9,33 @@ Inspired by [suspenders](https://github.com/thoughtbot/suspenders), I decided to
 
 ### Make It Your Own
 
-1. Replace all the instances of 'basis' and 'Basis' with your app's name, using either all lowercase letters when replacing 'basis' and only the first letter uppercase when replacing 'Basis'. These are the files that should contain instances that need to be replaced (but you're better off doing a find/replace across all files in your text editor):
+Replace all the instances of 'basis' and 'Basis' with your app's name, using either all lowercase letters when replacing 'basis' and only the first letter uppercase when replacing 'Basis'. These are the files that should contain instances that need to be replaced (but you're better off doing a find/replace across all files in your text editor):
 
-    * .rvmrc
-    * config.ru
-    * Rakefile
-    * app/views/layouts/application.html.erb, in title tag
-    * config/application.rb
-    * config/database.yml
-    * config/deploy.rb
-    * config/deploy/production.rb
-    * config/deploy/staging.rb
-    * config/environment.rb
-    * config/environments/development.rb
-    * config/environments/production.rb
-    * config/environments/test.rb
-    * config/initializers/secret_token.rb
-    * config/initializers/session_store.rb
-    * config/mongoid.yml (if using Mongoid)
-    * config/routes.rb
+* .rvmrc
+* config.ru
+* Rakefile
+* app/views/layouts/application.html.erb, in title tag
+* config/application.rb
+* config/database.yml
+* config/deploy.rb
+* config/deploy/production.rb
+* config/deploy/staging.rb
+* config/environment.rb
+* config/environments/development.rb
+* config/environments/production.rb
+* config/environments/test.rb
+* config/initializers/secret_token.rb
+* config/initializers/session_store.rb
+* config/mongoid.yml (if using Mongoid)
+* config/routes.rb
 
-2. Remove `Gemfile.lock` from the `.gitignore` file.
+Remove `Gemfile.lock` from the `.gitignore` file.
 
-3. If you're not staying open-source, you'll probably want to:
+If you're not staying open-source, you'll probably want to:
 
-    * Remove the first three lines from the `spec/spec_helper.rb` file
-    * Remove the `coveralls` gem from `Gemfile`
-    * Remove the `.travis.yml` file
+* Remove the first three lines from the `spec/spec_helper.rb` file
+* Remove the `coveralls` gem from `Gemfile`
+* Remove the `.travis.yml` file
 
 
 ### Commands To Run
