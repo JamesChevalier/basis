@@ -8,6 +8,7 @@ gem 'awesome_print'
 gem 'cancancan'
 gem 'ckeditor'
 # gem 'content_block'
+gem 'coveralls', require: false
 gem 'devise'
 gem 'foundation-rails'
 gem 'friendly_id'

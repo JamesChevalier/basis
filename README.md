@@ -29,7 +29,11 @@ Edit this line from `config/initializers/devise.rb`:
 
 Configure Errbit in `config/initializers/errbit.rb`.
 
-If you're not staying open-source, you'll probably want to remove the `.travis.yml` file
+If you're not staying open-source, you'll probably want to:
+
+* Remove the `.travis.yml` file
+* Remove the `gem 'coveralls', require: false` line from the `Gemfile` file
+* Remove the first two lines in the `spec/rails_helper.rb` file
 
 
 ### Commands To Run
