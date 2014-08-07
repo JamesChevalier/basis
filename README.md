@@ -12,40 +12,32 @@ Inspired by [suspenders](https://github.com/thoughtbot/suspenders), I decided to
 Replace all the instances of 'basis' and 'Basis' with your app's name, using either all lowercase letters when replacing 'basis' and only the first letter uppercase when replacing 'Basis'. These are the files that should contain instances that need to be replaced (but you're better off doing a find/replace across all files in your text editor):
 
 * .rvmrc
-* config.ru
-* Rakefile
 * app/views/layouts/application.html.erb, in title tag
 * config/application.rb
 * config/database.yml
-* config/deploy.rb
-* config/deploy/production.rb
-* config/deploy/staging.rb
 * config/environment.rb
 * config/environments/development.rb
 * config/environments/production.rb
 * config/environments/test.rb
-* config/initializers/secret_token.rb
 * config/initializers/session_store.rb
-* config/mongoid.yml (if using Mongoid)
-* config/routes.rb
 
 Remove `Gemfile.lock` from the `.gitignore` file.
 
-If you're not staying open-source, you'll probably want to:
+Edit this line from `config/initializers/devise.rb`:
 
-* Remove the first three lines from the `spec/spec_helper.rb` file
-* Remove the `coveralls` gem from `Gemfile`
-* Remove the `.travis.yml` file
+`config.mailer_sender = 'please-change-me-at-config-initializers-devise@example.com'`
+
+Configure Errbit in `config/initializers/errbit.rb`.
+
+If you're not staying open-source, you'll probably want to remove the `.travis.yml` file
 
 
 ### Commands To Run
 
 * `bundle install`
 * `rake secret`
-    * Replace the secret_token in `config/initializers/secret_token.rb` with the result of this command
+    * Replace the secret_key_base in `config/secrets.yml` with the result of this command
 * `rake db:create`
-* `rails g foundation:install`
-    * This will ask to replace some files - use `d` to compare the differences & make your own intelligent decisions
 
 
 ### Testing
@@ -58,12 +50,43 @@ If you're not staying open-source, you'll probably want to:
 * Optionally, install growlnotify from the Extras/growlnotify/growlnotify.pkg in Growl's disk image to get notifications from `guard`
 
 
-### Tracking
+### Tools
 
-* Errors are logged to [Errbit](https://github.com/errbit/errbit)
-* Performance information is logged to [NewRelic](http://newrelic.com)
+#### errbit
 
+Errors are logged with [Errbit](https://github.com/errbit/errbit)
 
-### Other Info
+If you do not want to use Errbit:
 
-Check out the `doc/README_FOR_APP.md` file for more information.
+* Remove the `gem 'airbrake'` line from `Gemfile`
+* Remove the `config/initializers/errbit.rb` file
+
+#### mailcatcher
+
+[mailcatcher](http://mailcatcher.me) lets you view mail being sent by the app in the browser.
+
+##### One time setup:
+
+* `rvm default@mailcatcher --create`
+* `gem install mailcatcher`
+* `rvm wrapper default@mailcatcher --no-prefix mailcatcher catchmail`
+
+##### Each use:
+
+* `mailcatcher`
+* Go to [http://localhost:1080](http://localhost:1080)
+* Perform actions that produce emails
+* [http://localhost:1080](http://localhost:1080) will automatically display the incoming email & provide notifications if you have Growl installed
+
+#### metric_fu
+
+[metric_fu](https://github.com/metricfu/metric_fu) displays code metrics from the reports of many other tools.
+
+To run it, run `rspec` and then run `metric_fu` in the Rails project directory.
+
+#### newrelic
+
+Performance information can be logged to [NewRelic](http://newrelic.com):
+
+* Uncomment the `# gem 'newrelic_rpm'` line from `Gemfile`
+* Add your `newrelic.yml` file to the `config` folder

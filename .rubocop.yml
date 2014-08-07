@@ -8,4 +8,4 @@ Encoding:
   Enabled: false
 
 LineLength:
-  Max: 120
+  Max: 125

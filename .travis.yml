@@ -4,4 +4,4 @@ before_script:
   - mysql -e 'create database basis_test;'
   - "bundle exec rake db:migrate"
 rvm:
-  - "1.9.3"
+  - "2.1.2"
